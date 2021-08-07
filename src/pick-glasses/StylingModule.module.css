@@ -1,0 +1,29 @@
+.result {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.model {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.glass {
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 300px;
+}
+
+.listGlasses {
+    flex-direction: row;
+}
+
+.flexRow {
+    flex-direction: row;
+    border: none;
+}
